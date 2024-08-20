@@ -1,0 +1,36 @@
+nav{
+    background-color: chocolate;
+    width: 100%;
+    height: 50px;
+}
+
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+     margin: 10px 20px;
+     font-weight: bolder;
+    
+}
+nav li:hover{
+    list-style: none;
+     margin: 10px 20px;
+     font-weight: bolder;
+  
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    padding-left: 10px;
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
